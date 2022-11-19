@@ -5,11 +5,9 @@ import SubHeading from './SubHeading'
 import InputQuery from './InputQuery'
 import SubmitButton from './SubmitButton'
 
-
 const App = () => {
   return (
     <div id="main">
-     
       <Heading />
       <SubHeading />
       <InputQuery />
@@ -18,4 +16,5 @@ const App = () => {
   )
 }
 
+export default App
 
